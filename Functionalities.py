@@ -27,7 +27,7 @@ from YoutubeAutomate import YoutubeAuto
 
 response = requests.get("https://ipinfo.io")
 data = response.json()
-api_key = '2b8f0d08011bec7402f4ec661502e245'
+api_key = 'your_key_here'
 NER = spacy.load('en_core_web_sm')
 
 def speak(query):
@@ -101,7 +101,7 @@ def pdf_reader():
 
 def send_email(msg,receiver_name):
     sender_email = 'tcloud278@gmail.com'
-    sender_password = 'tksq hgxn vpji hxvv'
+    sender_password = 'password_here'
     receiver_email = 'samim2904k@gmail.com'
     subject = 'null'
     message = msg
