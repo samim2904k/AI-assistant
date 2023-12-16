@@ -1,0 +1,91 @@
+There are three main ways to write a "Hello, World!" program in JavaScript: using `console.log()`, `alert()`, or `document.write()`.
+
+**Using console.log()**
+
+The `console.log()` method is used to print messages to the browser console. To use it to write a "Hello, World!" program, simply write the following code in a `<script>` tag:
+
+```javascript
+console.log('Hello, World!');
+```
+
+When you run this code, you will see the following message in the browser console:
+
+```
+Hello, World!
+```
+
+**Using alert()**
+
+The `alert()` method is used to display a pop-up window with a message. To use it to write a "Hello, World!" program, simply write the following code in a `<script>` tag:
+
+```javascript
+alert('Hello, World!');
+```
+
+When you run this code, a pop-up window will appear with the following message:
+
+```
+Hello, World!
+```
+
+**Using document.write()**
+
+The `document.write()` method is used to write text to the HTML document. To use it to write a "Hello, World!" program, simply write the following code in a `<script>` tag:
+
+```javascript
+document.write('Hello, World!');
+```
+
+When you run this code, the following text will be written to the HTML document:
+
+```
+Hello, World!
+```
+
+**Example using console.log()**
+
+```javascript
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello, World!</title>
+</head>
+<body>
+<script>
+console.log('Hello, World!');
+</script>
+</body>
+</html>
+```
+
+**Example using alert()**
+
+```javascript
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello, World!</title>
+</head>
+<body>
+<script>
+alert('Hello, World!');
+</script>
+</body>
+</html>
+```
+
+**Example using document.write()**
+
+```javascript
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello, World!</title>
+</head>
+<body>
+<script>
+document.write('Hello, World!');
+</script>
+</body>
+</html>
+```

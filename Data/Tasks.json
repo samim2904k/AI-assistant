@@ -1,0 +1,9 @@
+{
+    "tag":"hello",
+    "patterns":["hello","hi"
+    ],
+    "responses":["Hello sir How may I help you today",
+    "Hi sir! What can I do for you?",
+    "Hello sir How are you?"
+    ]
+}
